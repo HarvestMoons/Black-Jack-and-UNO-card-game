@@ -1,0 +1,471 @@
+<mxfile host="Electron" modified="2024-06-01T13:49:41.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.7 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="pyrXDeBS9Gp7lUyogznf" version="24.4.7" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2401" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="游戏开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="165" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="BJ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="玩家选择&lt;div&gt;游戏类型&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="158" y="170" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="BJ游戏流程（已完成）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-0" value="指定游戏总人数N" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="159" y="300" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-3" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="YJjeC4FXPyVYjDb1KhZy-0" source="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="250" as="sourcePoint" />
+            <mxPoint x="220" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-4" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="WIyWlLk6GJQsqaUBKTNV-6" source="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.5" y="120" as="sourcePoint" />
+            <mxPoint x="219" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-5" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="YJjeC4FXPyVYjDb1KhZy-6" source="YJjeC4FXPyVYjDb1KhZy-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.5" y="360" as="sourcePoint" />
+            <mxPoint x="219.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-6" value="首发确认" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="410" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-9" value="发牌" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="158" y="760" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-10" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="YJjeC4FXPyVYjDb1KhZy-11" source="YJjeC4FXPyVYjDb1KhZy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218.5" y="820" as="sourcePoint" />
+            <mxPoint x="218" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-11" value="取引导牌" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="163" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-12" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="os3W4GuwjXZK0gJAUTzJ-74" source="YJjeC4FXPyVYjDb1KhZy-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218" y="930" as="sourcePoint" />
+            <mxPoint x="217.5" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-13" value="玩家i质疑、出(摸)牌" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="164" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-14" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-13" edge="1" target="YJjeC4FXPyVYjDb1KhZy-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1080" as="sourcePoint" />
+            <mxPoint x="370" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-15" value="玩家i是否出完所有手牌" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1180" y="1110" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-16" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="YJjeC4FXPyVYjDb1KhZy-19" source="YJjeC4FXPyVYjDb1KhZy-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1274.5" y="1190" as="sourcePoint" />
+            <mxPoint x="1274.5" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-17" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-16" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-19" value="本局游戏结束，结算" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1215" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-23" value="是否继续游戏" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="180" y="1640" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-24" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="YJjeC4FXPyVYjDb1KhZy-26" edge="1" source="YJjeC4FXPyVYjDb1KhZy-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="1630" as="sourcePoint" />
+            <mxPoint x="285" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-25" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-24" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-26" value="本场游戏结束，结算" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="217.75" y="1810" width="124.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-35" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-15" edge="1" target="YJjeC4FXPyVYjDb1KhZy-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="1140" as="sourcePoint" />
+            <mxPoint x="1500" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-36" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-35" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-37" value="玩家i是否只剩一张手牌" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1500" y="1110" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-43" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="YJjeC4FXPyVYjDb1KhZy-48" source="YJjeC4FXPyVYjDb1KhZy-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1594.5" y="1190" as="sourcePoint" />
+            <mxPoint x="1594.5" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-44" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-43" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-46" value="i=(++i)%N" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1535" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-48" value="记录其是否喊UNO（此处有疑问）" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1535" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-56" value="玩家i是否提出质疑" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="1110" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-57" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-56" target="os3W4GuwjXZK0gJAUTzJ-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1149.5" as="sourcePoint" />
+            <mxPoint x="630" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-58" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-57" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-60" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="YJjeC4FXPyVYjDb1KhZy-65" source="YJjeC4FXPyVYjDb1KhZy-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454.5" y="1190" as="sourcePoint" />
+            <mxPoint x="455" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-61" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-60" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-65" value="质疑是否有效" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="1270" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-66" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="YJjeC4FXPyVYjDb1KhZy-68" source="YJjeC4FXPyVYjDb1KhZy-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454.5" y="1350" as="sourcePoint" />
+            <mxPoint x="455" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-67" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-66" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-68" value="惩罚上一名玩家" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="395" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-69" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-65" edge="1" target="YJjeC4FXPyVYjDb1KhZy-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1280" as="sourcePoint" />
+            <mxPoint x="290" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-70" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="YJjeC4FXPyVYjDb1KhZy-69" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJjeC4FXPyVYjDb1KhZy-71" value="惩罚该玩家" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-2" value="UNO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="242.5" y="258" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-58" value="刚刚抽取的牌&lt;div&gt;是否都&lt;span style=&quot;background-color: initial;&quot;&gt;有分值&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="151" y="614" width="147" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-60" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-6" target="os3W4GuwjXZK0gJAUTzJ-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-61" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-58" target="YJjeC4FXPyVYjDb1KhZy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="700" as="sourcePoint" />
+            <mxPoint x="218" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-62" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-61">
+          <mxGeometry x="-0.1394" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-63" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-64" target="os3W4GuwjXZK0gJAUTzJ-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="580" as="sourcePoint" />
+            <mxPoint x="430" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-64" value="所有牌放回牌堆，洗牌" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="158" y="510" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-72" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-58" target="YJjeC4FXPyVYjDb1KhZy-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="750" as="sourcePoint" />
+            <mxPoint x="640" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-73" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-72">
+          <mxGeometry x="0.0335" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-74" value="引导牌是否是万能牌" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="149.5" y="980" width="147" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-76" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-74" target="YJjeC4FXPyVYjDb1KhZy-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.57" y="1060" as="sourcePoint" />
+            <mxPoint x="219.57" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-77" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-76">
+          <mxGeometry x="-0.3285" y="1" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-78" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-19" target="YJjeC4FXPyVYjDb1KhZy-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="1340" as="sourcePoint" />
+            <mxPoint x="680" y="1290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1390" y="1360" />
+              <mxPoint x="1390" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-79" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-37" target="YJjeC4FXPyVYjDb1KhZy-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880" y="1000" as="sourcePoint" />
+            <mxPoint x="1868" y="786" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1780" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-80" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-79">
+          <mxGeometry x="0.0335" y="1" relative="1" as="geometry">
+            <mxPoint y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-81" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-46" target="YJjeC4FXPyVYjDb1KhZy-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="977" y="1070" as="sourcePoint" />
+            <mxPoint x="229.99999999999977" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-82" value="引导牌放回牌堆，洗牌" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-83" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-74" target="os3W4GuwjXZK0gJAUTzJ-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="670" as="sourcePoint" />
+            <mxPoint x="459.5" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-84" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-83">
+          <mxGeometry x="-0.2842" y="-2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-85" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-82" target="YJjeC4FXPyVYjDb1KhZy-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="850" as="sourcePoint" />
+            <mxPoint x="375" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-91" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJjeC4FXPyVYjDb1KhZy-23" target="os3W4GuwjXZK0gJAUTzJ-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="1270" as="sourcePoint" />
+            <mxPoint x="-140" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-94" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-91">
+          <mxGeometry x="-0.4533" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-95" value="上一局游戏是否&lt;div&gt;有多名胜利者&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="750" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-96" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-95" target="YJjeC4FXPyVYjDb1KhZy-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="540" as="sourcePoint" />
+            <mxPoint x="-185" y="-140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-97" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-96">
+          <mxGeometry x="-0.4533" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-98" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-95" target="YJjeC4FXPyVYjDb1KhZy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="660" as="sourcePoint" />
+            <mxPoint x="90" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-99" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-98">
+          <mxGeometry x="-0.3285" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-100" value="玩家i是否有牌可出" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="1110" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-103" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-100" target="os3W4GuwjXZK0gJAUTzJ-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="1240" as="sourcePoint" />
+            <mxPoint x="715" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-104" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="os3W4GuwjXZK0gJAUTzJ-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-105" value="摸牌" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="637.5" y="1240" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-106" value="牌库是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="1320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-107" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-106" target="YJjeC4FXPyVYjDb1KhZy-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="1180" as="sourcePoint" />
+            <mxPoint x="900.5" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-108" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="os3W4GuwjXZK0gJAUTzJ-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-109" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-105" target="os3W4GuwjXZK0gJAUTzJ-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1220" as="sourcePoint" />
+            <mxPoint x="992" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-110" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-106" target="os3W4GuwjXZK0gJAUTzJ-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1440" as="sourcePoint" />
+            <mxPoint x="700" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-111" value="NO" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="os3W4GuwjXZK0gJAUTzJ-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-113" value="摸到的牌可否打出" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="1450" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-114" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-100" target="os3W4GuwjXZK0gJAUTzJ-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1210" as="sourcePoint" />
+            <mxPoint x="830" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-115" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="os3W4GuwjXZK0gJAUTzJ-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-116" value="玩家i是否愿意出牌" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1110" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-117" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-116" target="os3W4GuwjXZK0gJAUTzJ-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="1220" as="sourcePoint" />
+            <mxPoint x="-355" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="975" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-118" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-117">
+          <mxGeometry x="0.1054" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-119" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-116" target="YJjeC4FXPyVYjDb1KhZy-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="1170" as="sourcePoint" />
+            <mxPoint x="1280" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-120" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="os3W4GuwjXZK0gJAUTzJ-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-125" value="" style="endArrow=block;html=1;rounded=0;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-113" target="os3W4GuwjXZK0gJAUTzJ-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="1400" as="sourcePoint" />
+            <mxPoint x="860.5" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-126" value="YES" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="os3W4GuwjXZK0gJAUTzJ-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-127" value="玩家i是否愿意出摸到的牌" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1450" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-128" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="1260" as="sourcePoint" />
+            <mxPoint x="430" y="1560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="1490" />
+              <mxPoint x="1120" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-129" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-128">
+          <mxGeometry x="0.1054" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-130" value="i=(++i)%N" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-131" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-130" target="YJjeC4FXPyVYjDb1KhZy-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1460" as="sourcePoint" />
+            <mxPoint x="-1617" y="1510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="1560" />
+              <mxPoint x="100" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-132" value="" style="edgeStyle=segmentEdgeStyle;endArrow=blockThin;html=1;curved=0;rounded=0;endSize=8;startSize=8;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="os3W4GuwjXZK0gJAUTzJ-113" target="os3W4GuwjXZK0gJAUTzJ-130">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="1510" as="sourcePoint" />
+            <mxPoint x="267" y="1580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="os3W4GuwjXZK0gJAUTzJ-133" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="os3W4GuwjXZK0gJAUTzJ-132">
+          <mxGeometry x="0.1054" y="3" relative="1" as="geometry">
+            <mxPoint x="19" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

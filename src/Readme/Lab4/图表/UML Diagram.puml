@@ -1,0 +1,33 @@
+@startuml
+abstract class BJ_Attendee{}
+class UNO_Player{}
+class Banker extends BJ_Attendee{}
+class BJ_Player extends BJ_Attendee{}
+
+abstract class CardCollection{}
+class UNO_CardCollection extends CardCollection{}
+class BJ_CardCollection extends CardCollection{}
+
+class BJ_Card{}
+class UNO_Card{}
+
+class Dealer{}
+class UNO_Controller{}
+
+
+BJ_Attendee"1" *-- "2"BJ_CardCollection
+UNO_Player"1" *-- "1"UNO_CardCollection
+
+BJ_CardCollection"1" *-- "n"BJ_Card
+UNO_CardCollection"1" *-- "n"UNO_Card
+
+Dealer"1" *-- "1"BJ_CardCollection
+Dealer o-- BJ_Player
+Dealer o-- Banker
+Dealer <.. BJ_Card
+
+UNO_Controller o-- UNO_Card
+UNO_Controller o-- UNO_Player
+UNO_Controller"1" *-- "1"UNO_CardCollection
+
+@enduml
